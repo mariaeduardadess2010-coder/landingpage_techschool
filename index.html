@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>TechSchool | Escola de Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>Tech<span class="logo-destaque">School</span></span>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                    <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <button class="btn-matricula-mobile">Matricule-se</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <button class="btn-primary btn-matricula">Matricule-se</button>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>+500 alunos formados</span>
+                </div>
+                <h1 class="hero-title">
+                    Transforme seu <span class="gradient-text">Futuro</span> com Tecnologia
+                </h1>
+                <p class="hero-subtitle">
+                    Aprenda programação com especialistas e conquiste as oportunidades 
+                    do mercado digital. Do zero ao primeiro emprego em tecnologia.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" id="scrollCursosBtn">
+                        Conheça os Cursos
+                    </button>
+                    <button class="btn-secondary btn-large" id="scrollContatoBtn">
+                        Fale Conosco
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Alunos Formados</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Aprovação</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Especialistas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-illustration">
+                    <div class="code-animation">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="code-lines">
+                            <span>&lt;h1&gt;Hello World!&lt;/h1&gt;</span>
+                            <span>console.log("Tech")</span>
+                            <span>def aprender():</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Quem Somos</span>
+                <h2 class="section-title">Sobre a Escola</h2>
+                <p class="section-subtitle">Conheça nossa metodologia e diferenciais</p>
+            </div>
+            <div class="sobre-grid">
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <p>A TechSchool nasceu com o propósito de democratizar o acesso ao conhecimento em tecnologia, preparando profissionais para os desafios do mercado digital.</p>
+                        <div class="sobre-features">
+                            <div class="feature">
+                                <i class="fas fa-flask"></i>
+                                <div>
+                                    <h4>Ensino Prático</h4>
+                                    <p>Aprenda construindo projetos reais do zero</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chalkboard-user"></i>
+                                <div>
+                                    <h4>Professores Experientes</h4>
+                                    <p>Mentores atuantes no mercado de tecnologia</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <h4>Formação para o Mercado</h4>
+                                    <p>Conteúdo alinhado com as demandas atuais</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="image-wrapper">
+                        <i class="fas fa-chalkboard-user"></i>
+                        <div class="experience-badge">
+                            <span>5+</span>
+                            <p>Anos de<br>Excelência</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section class="cursos section" id="cursos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Aprenda com os melhores</span>
+                <h2 class="section-title">Cursos Oferecidos</h2>
+                <p class="section-subtitle">Formações completas para você se destacar no mercado</p>
+            </div>
+            <div class="cursos-grid" id="cursosGrid"></div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais section" id="diferenciais">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Vantagens exclusivas</span>
+                <h2 class="section-title">Por que estudar conosco?</h2>
+                <p class="section-subtitle">Diferenciais que fazem a diferença na sua jornada</p>
+            </div>
+            <div class="diferenciais-grid" id="diferenciaisGrid"></div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section class="depoimentos section" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos reais</span>
+                <h2 class="section-title">Histórias de Sucesso</h2>
+                <p class="section-subtitle">Veja o que nossos alunos estão dizendo</p>
+            </div>
+            <div class="depoimentos-grid" id="depoimentosGrid"></div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fale conosco</span>
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Tire suas dúvidas e comece sua jornada hoje</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="contato-info">
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 96391-2526</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@techschool.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para começar sua jornada na tecnologia?</h2>
+                <p>Junte-se a mais de 500 alunos que já transformaram suas carreiras conosco</p>
+                <button class="btn-primary btn-large btn-glow" id="ctaMatriculaBtn">
+                 Matricule-se Agora
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Tech<span class="logo-destaque">School</span></span>
+                    <p>Transformando vidas através da tecnologia</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Cursos</h4>
+                    <ul>
+                        <li><a href="#">Desenvolvimento Web</a></li>
+                        <li><a href="#">JavaScript Moderno</a></li>
+                        <li><a href="#">Python para Iniciantes</a></li>
+                        <li><a href="#">Full Stack</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Receba Novidades</h4>
+                    <p>Inscreva-se para receber conteúdos exclusivos</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechSchool. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5511963912526" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Conversar com um Especialista</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
