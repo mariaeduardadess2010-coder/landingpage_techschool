@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
     background-color: #0F172A;
     color: #E2E8F0;
     line-height: 1.6;
@@ -916,5 +916,153 @@ body {
     
     .floating-card {
         display: none;
+    }
+}
+/* Tipografia aprimorada */
+body {
+    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
+    background-color: #0F172A;
+    color: #E2E8F0;
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+
+/* Títulos com Poppins para mais elegância */
+h1, h2, h3, h4, .hero-title, .section-title, .logo {
+    font-family: 'Poppins', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Hero Title - mais refinado */
+.hero-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+/* Subtítulos com peso médio */
+.section-subtitle, .hero-subtitle {
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+/* Botões com fonte mais elegante */
+.btn-primary, .btn-secondary, .btn-matricula, .btn-matricula-mobile {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+/* Navegação */
+.nav-link {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+/* Cards */
+.card h3, .depoimento-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.card p, .depoimento-texto {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Títulos dos diferenciais */
+.feature h4, .info-card h4, .footer-links h4, .footer-newsletter h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Badge */
+.hero-badge {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* Estatísticas */
+.stat-number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.stat-label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* CTA */
+.cta-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Footer */
+.footer-logo span, .footer-links a, .footer-newsletter p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Ajuste para números e código */
+.code-lines, .stat-number {
+    font-family: 'Poppins', monospace;
+}
+
+/* Melhorias de espaçamento para elegância */
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-tag {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+/* Ajustes responsivos para tipografia */
+@media (max-width: 968px) {
+    .hero-title {
+        font-size: 44px;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .section-title {
+        font-size: 32px;
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .section-subtitle {
+        font-size: 16px;
     }
 }
